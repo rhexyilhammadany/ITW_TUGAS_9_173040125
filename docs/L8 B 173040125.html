@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>java script</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		alert('menu makanan'
+			+'\n 1.Nasi goreng Rp.10000'
+			+'\n 2.Mie ayam Rp.8000'
+			+'\n 3.Bubur ayam Rp.10000');
+
+		var makanan = prompt('Masukan nama makanan :');
+		var jumlah = prompt("jumlah pesanan :");
+
+		if (makanan == "nasi goreng") {
+			var harga =10000;
+			var hasil = harga * jumlah;
+			alert('total harga :' + hasil);
+
+		}else if (makanan == "Mie ayam") {
+			var harga =8000;
+			var hasil = harga * jumlah;
+			alert('total harga :' + hasil);
+
+		}else if (makanan == "Bubur ayam") {
+			var harga =10000;
+			var hasil = harga * jumlah;
+			alert('total harga :' + hasil);
+
+		} else {
+			alert("error");
+		}
+
+		confirm("terima kasih");
+
+
+	</script>
+	<center><a href="../index.html" class="button noz">Index</a></center>
+
+
+</body>
+</html>
